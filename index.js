@@ -2,6 +2,8 @@ const dodger = document.querySelector('#dodger');
 
 dodger.style.backgroundColor = '#FF69B4';
 
+function moveDodgerLeft
+
 document.addEventListener("keydown", function(e) {
   console.log(e.key)
   if (e.key === "ArrowLeft") {
