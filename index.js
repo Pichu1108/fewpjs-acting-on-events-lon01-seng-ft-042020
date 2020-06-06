@@ -20,7 +20,7 @@ function moveDodgerUp(){
   }
 }
 
-function moveDodgerUp(){
+function moveDodgerRight(){
   let leftNumbers = dodger.style.left;
   let moveLeft = parseInt(leftNumbers);
 
