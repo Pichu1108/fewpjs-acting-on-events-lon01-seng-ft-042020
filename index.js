@@ -15,7 +15,7 @@ function moveDodgerRight(){
   let buttomNumbers = dodger.style.bottom;
   let moveUp = parseInt(buttomNumbers);
 
-  if (moveRight < 360){
+  if (moveUp < 0){
     dodger.style.left = `${moveRight + 3}px`;
   }
 }
