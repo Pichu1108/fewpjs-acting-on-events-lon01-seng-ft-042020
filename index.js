@@ -24,7 +24,7 @@ function moveDodgerUp(){
   let bottomNumbers = dodger.style.bottom;
   let moveUp = parseInt(bottomNumbers);
 
-  if (moveUp > 0){
+  if (moveUp >= 0){
     dodger.style.bottom = `${moveUp + 3}px`;
   }
 }
