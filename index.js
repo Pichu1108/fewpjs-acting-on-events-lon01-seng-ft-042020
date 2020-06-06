@@ -11,20 +11,20 @@ function moveDodgerLeft(){
   }
 }
 
-function moveDodgerUp(){
+function moveDodgerRight(){
   let buttomNumbers = dodger.style.bottom;
-  let moveUp = parseInt(buttomNumbers);
+  let moveRight = parseInt(buttomNumbers);
 
-  if (moveUp < 0){
-    dodger.style.bottom = `${moveUp + 3}px`;
+  if (moveRight < 360){
+    dodger.style.left = `${moveRight + 3}px`;
   }
 }
 
-function moveDodgerRight(){
+function moveDodgerUp(){
   let leftNumbers = dodger.style.left;
   let moveLeft = parseInt(leftNumbers);
 
-  if (moveLeft > 360){
+  if (moveLeft > 0){
     dodger.style.left = `${moveLeft - 3}px`;
   }
 }
@@ -35,11 +35,5 @@ document.addEventListener("keydown", function(e) {
   }
   else if (e.key === "ArrowRight"){
     moveDodgerRight();
-  }
-  else if (e.key === "ArrowUp"){
-    moveDodgerUp();
-  }
-  else if (e.key === "ArrowDown"){
-    moveDodgerDown();
   }
 });
