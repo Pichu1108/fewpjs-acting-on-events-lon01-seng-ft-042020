@@ -11,6 +11,15 @@ function moveDodgerLeft(){
   }
 }
 
+function moveDodgerRight(){
+  let leftNumbers = dodger.style.left;
+  let moveLeft = parseInt(leftNumbers);
+
+  if (moveLeft > 0){
+    dodger.style.left = `${moveLeft - 1}px`;
+  }
+}
+
 document.addEventListener("keydown", function(e) {
   console.log(e.key)
   if (e.key === "ArrowLeft") {
