@@ -39,4 +39,7 @@ document.addEventListener("keydown", function(e) {
   else if (e.key === "ArrowUp"){
     moveDodgerUp();
   }
+  else if (e.key === "ArrowDown"){
+    moveDodgerDown();
+  }
 });
