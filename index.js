@@ -2,7 +2,10 @@ const dodger = document.querySelector('#dodger');
 
 dodger.style.backgroundColor = '#FF69B4';
 
-function moveDodgerLeft
+function moveDodgerLeft(){
+  let leftNumbers = dodger.style.left
+  let moveLeft = parseInt(leftNumbers)
+}
 
 document.addEventListener("keydown", function(e) {
   console.log(e.key)
