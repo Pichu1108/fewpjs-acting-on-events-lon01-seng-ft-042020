@@ -28,6 +28,14 @@ function moveDodgerUp(){
     dodger.style.bottom = `${moveUp + 2}px`;
   }
 }
+function moveDodgerDown(){
+  let bottomNumbers = dodger.style.bottom;
+  let moveDown = parseInt(bottomNumbers);
+
+  if (moveDown > 0){
+    dodger.style.bottom = `${moveDown + 2}px`;
+  }
+}
 
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
