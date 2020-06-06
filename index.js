@@ -8,6 +8,6 @@ document.addEventListener("keydown", function(e) {
     let leftNumbers = dodger.style.left
     let moveLeft = parseInt(leftNumbers)
 
-    dodger.style.left = `${moveLeft + 1}px`
+    dodger.style.left = `${moveLeft - 1}px`
   }
 });
