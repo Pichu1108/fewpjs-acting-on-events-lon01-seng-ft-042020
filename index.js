@@ -21,7 +21,7 @@ function moveDodgerRight(){
 }
 
 function moveDodgerUp(){
-  let leftNumbers = dodger.style.left;
+  let bottomNumbers = dodger.style.left;
   let moveLeft = parseInt(leftNumbers);
 
   if (moveLeft > 0){
