@@ -30,14 +30,16 @@ function moveDodgerUp(){
 }
 
 document.addEventListener("keydown", function(e) {
-  console.log(e.key)
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
   }
   else if (e.key === "ArrowRight"){
     moveDodgerRight();
   }
-  else if (e.key === "ArrowRight"){
-    moveDodgerRight();
+  else if (e.key === "ArrowUp"){
+    moveDodgerUp();
+  }
+  else if (e.key === "ArrowDown"){
+    moveDodgerDown();
   }
 });
