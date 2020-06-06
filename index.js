@@ -11,7 +11,7 @@ function moveDodgerLeft(){
   }
 }
 
-function moveDodgerRight(){
+function moveDodgerUp(){
   let buttomNumbers = dodger.style.bottom;
   let moveUp = parseInt(buttomNumbers);
 
